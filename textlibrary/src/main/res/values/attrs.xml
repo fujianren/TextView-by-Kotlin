@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="lineTextView">
+        <attr name="lineWidth" format="dimension"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="animationDuration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="fadeTextView">
+        <attr name="fade_animation_duration" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="scrollSideTextView">
+        <attr name="expandSpeed" format="integer"/>
+        <attr name="charIncrease" format="integer"/>
+    </declare-styleable>
+</resources>
